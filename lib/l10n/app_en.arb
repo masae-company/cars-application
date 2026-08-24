@@ -1,0 +1,1175 @@
+{
+  "@@locale": "en",
+  "appName": "Company Management",
+  "@appName": {
+    "description": "Application name"
+  },
+  "appDescription": "Manage vehicles, tools, finances, and company resources",
+  "@appDescription": {
+    "description": "Application description"
+  },
+  "loading": "Loading...",
+  "error": "Error",
+  "success": "Success",
+  "confirm": "Confirm",
+  "save": "Save",
+  "edit": "Edit",
+  "delete": "Delete",
+  "add": "Add",
+  "search": "Search",
+  "filter": "Filter",
+  "clear": "Clear",
+  "retry": "Retry",
+  "back": "Back",
+  "next": "Next",
+  "done": "Done",
+  "yes": "Yes",
+  "no": "No",
+  "exitApp": "Exit App",
+  "doYouWantToExit": "Do you want to exit the app?",
+  "login": "Login",
+  "logout": "Logout",
+  "register": "Register",
+  "email": "Email",
+  "password": "Password",
+  "confirmPassword": "Confirm Password",
+  "forgotPassword": "Forgot Password?",
+  "dontHaveAccount": "Don't have an account?",
+  "alreadyHaveAccount": "Already have an account?",
+  "loginSuccess": "Login successful",
+  "logoutSuccess": "Logout successful",
+  "registerSuccess": "Registration successful",
+  "employee": "Employee",
+  "admin": "Admin",
+  "carsAdmin": "Cars Admin",
+  "accountant": "Accountant",
+  "warehouseKeeper": "Warehouse Keeper",
+  "role": "Role",
+  "carModel": "Car Model",
+  "carNumber": "Car Number",
+  "carDetails": "Car Details",
+  "noCarsFound": "No cars found",
+  "carAddedSuccess": "Car added successfully",
+  "carUpdatedSuccess": "Car updated successfully",
+  "carDeletedSuccess": "Car deleted successfully",
+  "assignCarToEmployee": "Assign Car to Employee",
+  "selectEmployee": "Select Employee",
+  "optional": "Optional",
+  "maintenanceRequest": "Maintenance Request",
+  "maintenanceHistory": "Maintenance History",
+  "currentKilometers": "Current Kilometers",
+  "selectVehicle": "Select Vehicle",
+  "vehicleReport": "VEHICLE REPORT",
+  "generatedAt": "Generated on",
+  "vehicleDetails": "Vehicle Details",
+  "plateNumber": "Plate Number",
+  "mileage": "Current Mileage",
+  "oilStatus": "Oil Health Status",
+  "lastChange": "Last Change",
+  "nextChange": "Due At",
+  "accidentStatus": "Accident Status",
+  "accidentDeductible": "Deductible Rate",
+  "activeMaintenanceRequests": "Active Maintenance Requests",
+  "generalMaintenance": "General Maintenance",
+  "noHistory": "No maintenance history available.",
+  "remaining": "Remaining",
+  "services": "Services",
+  "previousOilChangeKilometers": "Previous Oil Change Kilometers",
+  "nextOilChangeKilometers": "Next Oil Change Kilometers",
+  "lastChangedDate": "Last Changed Date",
+  "maintenanceNotes": "Maintenance Notes",
+  "oilChangeProgress": "Oil Change Progress",
+  "kilometersRemaining": "Kilometers Remaining",
+  "updateKilometers": "Update Kilometers",
+  "setOilChangeInterval": "Set Oil Change Interval",
+  "maintenanceRequestCreated": "Maintenance request created successfully",
+  "kilometersUpdated": "Kilometers updated successfully",
+  "current": "Current",
+  "newKilometers": "New Kilometers",
+  "enterNewOdometerReading": "Enter new odometer reading",
+  "enterNumberBiggerThan": "Please enter a number bigger than {currentKm} km",
+  "@enterNumberBiggerThan": {
+    "placeholders": {
+      "currentKm": {
+        "type": "String"
+      }
+    }
+  },
+  "enterValidNumber": "Please enter a valid number",
+  "update": "Update",
+  "oilChangeIntervalSet": "Oil change interval set successfully",
+  "oilStatusGood": "Good",
+  "oilStatusApproaching": "Approaching",
+  "oilStatusDueSoon": "Due Soon",
+  "oilStatusOverdue": "Overdue",
+  "tools": "Tools",
+  "tool": "Tool",
+  "addTool": "Add Tool",
+  "editTool": "Edit Tool",
+  "deleteTool": "Delete Tool",
+  "toolName": "Tool Name",
+  "toolDetails": "Tool Details",
+  "noToolsFound": "No tools found",
+  "toolAddedSuccess": "Tool added successfully",
+  "toolUpdatedSuccess": "Tool updated successfully",
+  "toolDeletedSuccess": "Tool deleted successfully",
+  "categoryPlumbing": "Plumbing",
+  "categoryElectrical": "Electrical",
+  "categoryAirConditioning": "Air Conditioning",
+  "categoryCivil": "Civil",
+  "categoryFireAndSafety": "Fire and Safety",
+  "fieldRequired": "This field is required",
+  "emailInvalid": "Please enter a valid email",
+  "passwordTooShort": "Password must be at least 8 characters",
+  "passwordsDoNotMatch": "Passwords do not match",
+  "carModelTooLong": "Car model must be less than 50 characters",
+  "carNumberTooLong": "Car number must be less than 20 characters",
+  "toolNameTooLong": "Tool name must be less than 50 characters",
+  "networkError": "Network error. Please check your connection.",
+  "serverError": "Server error. Please try again later.",
+  "unknownError": "An unknown error occurred",
+  "authError": "Authentication failed",
+  "permissionDenied": "Permission denied",
+  "notFound": "Resource not found",
+  "validationError": "Validation error",
+  "home": "Home",
+  "profile": "Profile",
+  "settings": "Settings",
+  "about": "About",
+  "language": "Language",
+  "english": "English",
+  "arabic": "Arabic",
+  "changeLanguage": "Change Language",
+  "welcomeBack": "Welcome back! Please sign in to your account",
+  "enterEmail": "Enter your email address",
+  "enterPassword": "Enter your password",
+  "createAccount": "Create Account",
+  "warehouseKeeperDashboard": "Warehouse Keeper Dashboard",
+  "accountantDashboard": "Accountant Dashboard",
+  "carsAdminDashboard": "Cars Admin Dashboard",
+  "refresh": "Refresh",
+  "quickOverview": "Quick Overview",
+  "noCategoriesFound": "No categories found",
+  "managementTools": "Management Tools",
+  "toolManagement": "Tool Management",
+  "toolManagementSubtitle": "View, create, edit, and manage all tools",
+  "reportsAnalytics": "Reports & Analytics",
+  "reportsAnalyticsSubtitle": "Generate inventory reports and analytics",
+  "reportsComingSoon": "Reports & Analytics feature coming soon!",
+  "registrationFailed": "Registration failed: {message}",
+  "@registrationFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "uncategorized": "Uncategorized",
+  "totalAllocated": "Total Allocated",
+  "totalExpenses": "Total Expenses",
+  "activeEmployees": "Active Employees",
+  "pendingRequests": "Pending Requests",
+  "help": "Help",
+  "gotIt": "Got it",
+  "initializationError": "Initialization Error",
+  "failedToInitialize": "Failed to initialize app dependencies.\nPlease check your configuration.",
+  "helpSupport": "Help & Support",
+  "helpUsImprove": "Help us improve the app",
+  "helpImproveApp": "Help improve the app by sharing anonymous usage data",
+  "maintenanceHelpText": "Select the maintenance services you need and fill in the required information. You can add multiple services in a single request.",
+  "toolDeletedSuccessMessage": "Tool deleted successfully",
+  "unknown": "Unknown",
+  "searchTools": "Search tools...",
+  "filterByEmployee": "Filter by Employee",
+  "allEmployees": "All Employees",
+  "clearFilter": "Clear filter",
+  "errorLoadingTools": "Error loading tools",
+  "addFirstTool": "Add your first tool to get started",
+  "deleteToolConfirmation": "Are you sure you want to delete {toolName}?",
+  "@deleteToolConfirmation": {
+    "placeholders": {
+      "toolName": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteCarConfirmation": "Are you sure you want to delete {carModel}?",
+  "@deleteCarConfirmation": {
+    "placeholders": {
+      "carModel": {
+        "type": "String"
+      }
+    }
+  },
+  "category": "Category",
+  "owner": "Owner",
+  "status": "Status",
+  "date": "Date",
+  "amount": "Amount",
+  "description": "Description",
+  "type": "Type",
+  "actions": "Actions",
+  "view": "View",
+  "details": "Details",
+  "close": "Close",
+  "submit": "Submit",
+  "update": "Update",
+  "create": "Create",
+  "select": "Select",
+  "selected": "Selected",
+  "all": "All",
+  "none": "None",
+  "required": "Required",
+  "optional": "Optional",
+  "fullName": "Full Name",
+  "enterFullName": "Enter your full name",
+  "pleaseFillInformation": "Please fill in the information below",
+  "confirmYourPassword": "Confirm your password",
+  "saving": "Saving...",
+  "model": "Model",
+  "number": "Number",
+  "required": "Required",
+  "failedToPickImage": "Failed to pick image: {error}",
+  "@failedToPickImage": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "tapToAddToolImage": "Tap to add tool image",
+  "name": "Name",
+  "pleaseSelectCategory": "Please select a category",
+  "errorLoadingCar": "Error loading car",
+  "noCarData": "No car data",
+  "failedToUploadImage": "Failed to upload image: {error}",
+  "@failedToUploadImage": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "failedToUpdateCar": "Failed to update car: {error}",
+  "@failedToUpdateCar": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "failedToLoadImage": "Failed to load image",
+  "tapToAddCarImage": "Tap to add car image",
+  "manageVehiclesAndToolsEfficiently": "Manage your vehicles and tools efficiently",
+  "manageYourVehicles": "Manage your vehicles",
+  "trackYourTools": "Track your tools",
+  "pettyCash": "Petty Cash",
+  "viewBalanceAndExpenses": "View balance and expenses",
+  "expenseAddedSuccessfully": "Expense added successfully",
+  "searchTransactions": "Search transactions...",
+  "currentBalance": "Current Balance",
+  "negativeBalance": "Negative Balance",
+  "noPettyCashAllocationFound": "No petty cash allocation found. Please contact your accountant to receive a petty cash allocation before adding expenses.",
+  "noAllocationsFound": "No allocations found",
+  "waitForAllocation": "Wait for an allocation from your accountant",
+  "errorLoadingData": "Error loading data",
+  "failedToUploadReceipt": "Failed to upload receipt: {error}",
+  "@failedToUploadReceipt": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "youMustBeLoggedIn": "You must be logged in",
+  "needAllocationBeforeExpenses": "You need a petty cash allocation from your accountant before adding expenses",
+  "addExpense": "Add Expense",
+  "amountRequired": "Amount is required",
+  "pleaseEnterValidAmount": "Please enter a valid amount",
+  "descriptionRequired": "Description is required",
+  "categoryOptional": "Category (optional)",
+  "selectDate": "Select date",
+  "receiptUploaded": "Receipt uploaded",
+  "removeReceipt": "Remove receipt",
+  "uploading": "Uploading...",
+  "uploadReceiptInvoice": "Upload Receipt/Invoice",
+  "adding": "Adding...",
+  "errorLoadingCars": "Error loading cars",
+  "loadingCarInformation": "Loading car information...",
+  "myCars": "My Cars",
+  "addFirstCarToStartTracking": "Add your first car to start tracking maintenance",
+  "editCar": "Edit Car",
+  "deleteCar": "Delete Car",
+  "overview": "Overview",
+  "history": "History",
+  "noOilData": "No Oil Data",
+  "setUpOilChangeTracking": "Set up oil change tracking for your car",
+  "addOilData": "Add Oil Data",
+  "maintenanceRequests": "Maintenance Requests",
+  "createAndManageMaintenanceRequests": "Create and manage maintenance requests for your car",
+  "pleaseSelectCar": "Please select a car",
+  "errorLoadingRequests": "Error loading requests",
+  "noMaintenanceRequests": "No Maintenance Requests",
+  "createFirstMaintenanceRequest": "Create your first maintenance request",
+  "request": "Request",
+  "created": "Created",
+  "inProgress": "In Progress",
+  "completed": "Completed",
+  "lastChanged": "Last changed",
+  "needsReplacement": "Needs replacement",
+  "positions": "positions",
+  "notes": "Notes",
+  "selectCarToViewHistory": "Select a car to view maintenance history",
+  "errorLoadingHistory": "Error loading history",
+  "kmRemaining": "km remaining",
+  "km": "km",
+  "updateKM": "Update KM",
+  "changeOil": "Change Oil",
+  "tyreStacking": "Tyre Stacking",
+  "allPositions": "All positions",
+  "pending": "Pending",
+  "maintenanceRequestCreatedSuccessfully": "Maintenance request created successfully",
+  "selectMaintenanceServicesYouNeed": "Select the maintenance services you need",
+  "maintenanceServices": "Maintenance Services",
+  "selectTirePositions": "Select Tire Positions",
+  "enterPreviousOilChangeKilometers": "Enter previous oil change kilometers",
+  "previousOilChangeKilometersRequired": "Previous oil change kilometers is required",
+  "enterCurrentKilometers": "Enter current kilometers",
+  "currentKilometersRequired": "Current kilometers is required",
+  "lastChangedDates": "Last Changed Dates",
+  "selectDate": "Select date",
+  "lastChangedDateRequired": "Last changed date is required",
+  "additionalNotes": "Additional Notes",
+  "enterAdditionalNotes": "Enter any additional notes or special requirements...",
+  "selectAtLeastOneTirePosition": "Please select at least one tire position",
+  "frontLeft": "Front Left",
+  "frontRight": "Front Right",
+  "rearLeft": "Rear Left",
+  "rearRight": "Rear Right",
+  "spare": "Spare",
+  "allocationAddedSuccessfully": "Allocation added successfully",
+  "pleaseSelectEmployee": "Please select an employee",
+  "pleaseUploadReceiptInvoice": "Please upload a receipt/invoice image",
+  "addPettyCashAllocation": "Add Petty Cash Allocation",
+  "addAllocation": "Add Allocation",
+  "entryDeletedSuccessfully": "Entry deleted successfully",
+  "searchExpenses": "Search expenses...",
+  "errorLoadingExpenses": "Error loading expenses",
+  "noExpensesFound": "No expenses found",
+  "addFirstExpenseToGetStarted": "Add your first expense to get started",
+  "deleteExpense": "Delete Expense",
+  "deleteExpenseConfirmation": "Are you sure you want to delete this expense?",
+  "total": "Total",
+  "noData": "No data",
+  "allocation": "Allocation",
+  "remaining": "Remaining",
+  "addExpenseToThisAllocation": "Add Expense to This Allocation",
+  "noExpensesYet": "No expenses yet",
+  "addExpenseToAllocation": "Add Expense to Allocation",
+  "allocationAmount": "Allocation: {amount}",
+  "@allocationAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "pettyCashDetails": "Petty Cash Details",
+  "errorLoadingAllocations": "Error loading allocations",
+  "createFirstAllocationToGetStarted": "Create your first allocation to get started",
+  "addNewAllocation": "Add New Allocation",
+  "allocations": "Allocations",
+  "totalAllocated": "Total Allocated",
+  "expenses": "Expenses",
+  "noExpensesRecorded": "No expenses recorded",
+  "viewReceipt": "View Receipt",
+  "expenseDetails": "Expense Details",
+  "errorLoadingExpense": "Error loading expense",
+  "created": "Created",
+  "receipt": "Receipt",
+  "pettyCashManagement": "Petty Cash Management",
+  "manageAllocationsAndViewAllTransactions": "Manage allocations and view all transactions",
+  "financialReports": "Financial Reports",
+  "generateComprehensiveFinancialStatements": "Generate comprehensive financial statements",
+  "financialReportsFeatureComingSoon": "Financial Reports feature coming soon!",
+  "budgetPlanning": "Budget Planning",
+  "planAndMonitorDepartmentBudgets": "Plan and monitor department budgets",
+  "budgetManagementFeatureComingSoon": "Budget Management feature coming soon!",
+  "unknownEmployee": "Unknown Employee",
+  "expense": "Expense",
+  "carsAdministration": "Cars Administration",
+  "manageAllVehiclesAndMaintenanceRequests": "Manage all vehicles and maintenance requests",
+  "allCars": "All Cars",
+  "viewAndManageAllVehicles": "View and manage all vehicles",
+  "reviewAndUpdateMaintenanceStatus": "Review and update maintenance status",
+  "monthlyCheckups": "Monthly Checkups",
+  "viewAndManageAllMonthlyCheckups": "View and manage all monthly checkups",
+  "carAnalytics": "Car Analytics",
+  "viewCarUsageAndMaintenanceStats": "View car usage and maintenance stats",
+  "reports": "Reports",
+  "generateMaintenanceReports": "Generate maintenance reports",
+  "reportsFeatureComingSoon": "Reports feature coming soon!",
+  "allCarsAdminView": "All Cars - Admin View",
+  "filterAndSort": "Filter & Sort",
+  "addNewCar": "Add New Car",
+  "loadingAllCars": "Loading all cars...",
+  "thereAreNoCarsInTheSystemYet": "There are no cars in the system yet",
+  "addFirstCar": "Add First Car",
+  "found": "found",
+  "clearFilters": "Clear Filters",
+  "searchCarsByModelNumberOrOwner": "Search cars by model, number, or owner...",
+  "noCarsMatchYourSearch": "No cars match your search",
+  "tryAdjustingYourSearchTermsOrFilters": "Try adjusting your search terms or filters",
+  "oilTracking": "Oil Tracking",
+  "monthlyCheckup": "Monthly Checkup",
+  "oilChangeDue": "Oil Change Due",
+  "oilChangeSoon": "Oil Change Soon",
+  "goodCondition": "Good Condition",
+  "noTracking": "No Tracking",
+  "filterAndSortOptions": "Filter & Sort Options",
+  "filterByStatus": "Filter by Status:",
+  "sortBy": "Sort by:",
+  "oilProgress": "Oil Progress:",
+  "loadingMonthlyCheckups": "Loading monthly checkups...",
+  "noMonthlyCheckupsYet": "No Monthly Checkups Yet",
+  "thereAreNoMonthlyCheckupsInTheSystemYet": "There are no monthly checkups in the system yet.\nStart by creating checkups for your cars.",
+  "searchByCarPerformedByOrDate": "Search by car, performed by, or date...",
+  "notStarted": "Not Started",
+  "noCheckupsMatchYourSearch": "No checkups match your search",
+  "performedBy": "Performed by",
+  "unknownCar": "Unknown Car",
+  "deleteCheckup": "Delete Checkup",
+  "areYouSureYouWantToDeleteThisMonthlyCheckup": "Are you sure you want to delete this monthly checkup?",
+  "noRequestsFound": "No requests found",
+  "noMaintenanceRequestsMatchTheSelectedFilter": "No maintenance requests match the selected filter",
+  "requested": "Requested:",
+  "inProgressAt": "In Progress:",
+  "completedAt": "Completed:",
+  "previous": "Previous:",
+  "lastChanged": "Last changed",
+  "serviceRequired": "Service required",
+  "noSpecificMaintenanceDetails": "No specific maintenance details",
+  "start": "Start",
+  "complete": "Complete",
+  "viewDetails": "View Details",
+  "multipleServices": "Multiple Services",
+  "maintenanceRequestCompletedSuccessfully": "Maintenance request completed successfully",
+  "uploadInvoice": "Upload Invoice",
+  "viewInvoice": "View Invoice",
+  "selectImageSource": "Select Image Source",
+  "gallery": "Gallery",
+  "camera": "Camera",
+  "errorUploadingInvoice": "Error uploading invoice",
+  "invoice": "Invoice",
+  "invoiceUploadedSuccessfully": "Invoice uploaded successfully",
+  "statusUpdatedTo": "Status updated to",
+  "notSpecified": "Not specified",
+  "loadingAnalytics": "Loading analytics...",
+  "totalCars": "Total Cars",
+  "totalMaintenanceRequests": "Total Maintenance Requests",
+  "maintenanceTypeDistribution": "Maintenance Type Distribution",
+  "breakdownByMaintenanceType": "Breakdown by maintenance type",
+  "maintenanceTrends": "Maintenance Trends",
+  "monthlyMaintenanceCountOverTime": "Monthly maintenance count over time",
+  "costTrends": "Cost Trends",
+  "monthlyMaintenanceCosts": "Monthly maintenance costs",
+  "totalCost": "Total Cost",
+  "averageCost": "Average Cost",
+  "oilChangeAnalytics": "Oil Change Analytics",
+  "totalChanges": "Total Changes",
+  "avgInterval": "Avg Interval",
+  "days": "days",
+  "dueSoon": "Due Soon",
+  "overdue": "Overdue",
+  "averageKmBetweenChanges": "Average km between changes:",
+  "carHealthStatus": "Car Health Status",
+  "noCarHealthDataAvailable": "No car health data available",
+  "monthlyCheckupChecklist": "Monthly Checkup Checklist",
+  "completed": "Completed",
+  "inProgress": "In Progress",
+  "filtersAndAirSystems": "Filters & Air Systems",
+  "engineAndOil": "Engine & Oil",
+  "transmissionAndFluids": "Transmission & Fluids",
+  "engineComponents": "Engine Components",
+  "suspensionAndBrakes": "Suspension & Brakes",
+  "tiresAndWheels": "Tires & Wheels",
+  "lightsAndElectrical": "Lights & Electrical",
+  "exhaustAndFinalChecks": "Exhaust & Final Checks",
+  "otherItems": "Other Items",
+  "editCheckup": "Edit Checkup",
+  "newCheckup": "New Checkup",
+  "progress": "Progress",
+  "items": "items",
+  "ofWord": "of",
+  "checkupInformation": "Checkup Information",
+  "checkupCompletedSuccessfully": "Checkup completed successfully!",
+  "completeCheckup": "Complete Checkup",
+  "replaceEngineOilAndFilter": "Replace Engine Oil & Filter",
+  "replaceEngineOilAndFilterDescription": "Every 10,000 km",
+  "inspectEngineAirFilter": "Inspect Engine Air Filter",
+  "inspectEngineAirFilterDescription": "Check for dirt and damage",
+  "replaceEngineAirFilter": "Replace Engine Air Filter",
+  "replaceEngineAirFilterDescription": "If needed",
+  "inspectAcAirFilter": "Inspect A/C Air Filter",
+  "inspectAcAirFilterDescription": "Check and clean if needed",
+  "inspectAutomaticTransmissionFluid": "Inspect Automatic Transmission Fluid",
+  "inspectAutomaticTransmissionFluidDescription": "Check condition and level",
+  "inspectManualTransmissionFluid": "Inspect Manual Transmission Fluid",
+  "inspectManualTransmissionFluidDescription": "Check condition and level",
+  "inspectDifferentialFluid": "Inspect Differential Fluid",
+  "inspectDifferentialFluidDescription": "Check condition and level",
+  "inspectSparkPlugs": "Inspect Spark Plugs",
+  "inspectSparkPlugsDescription": "Check condition and replace if needed",
+  "inspectCoolantLevel": "Inspect Coolant Level",
+  "inspectCoolantLevelDescription": "Check coolant level",
+  "inspectCoolantCondition": "Inspect Coolant Condition",
+  "inspectCoolantConditionDescription": "Check condition and replace if needed",
+  "inspectBrakeAndClutchFluid": "Inspect Brake & Clutch Fluid",
+  "inspectBrakeAndClutchFluidDescription": "Check level and condition",
+  "inspectForFluidLeaks": "Inspect for Fluid Leaks",
+  "inspectForFluidLeaksDescription": "Check for any fluid leaks",
+  "inspectRadiatorHoses": "Inspect Radiator Hoses",
+  "inspectRadiatorHosesDescription": "Check for cracks and damage",
+  "inspectDriveShaftsAndBoots": "Inspect Drive Shafts & Boots",
+  "inspectDriveShaftsAndBootsDescription": "Check for damage and wear",
+  "inspectFuelFilter": "Inspect Fuel Filter",
+  "inspectFuelFilterDescription": "Check condition and replace if needed",
+  "inspectSuspension": "Inspect Suspension",
+  "inspectSuspensionDescription": "Check for damage underneath",
+  "inspectShockAbsorber": "Inspect Shock Absorber",
+  "inspectShockAbsorberDescription": "Check for leaks",
+  "retightenSuspension": "Retighten Suspension",
+  "retightenSuspensionDescription": "Retighten and lubricate",
+  "inspectEngineSupport": "Inspect Engine Support",
+  "inspectEngineSupportDescription": "Check engine mounts",
+  "inspectDriveBeltAndPulleys": "Inspect Drive Belt & Pulleys",
+  "inspectDriveBeltAndPulleysDescription": "Check condition and tension",
+  "inspectBrakeLines": "Inspect Brake Lines",
+  "inspectBrakeLinesDescription": "Check for leaks and damage",
+  "inspectBrakePads": "Inspect Brake Pads",
+  "inspectBrakePadsDescription": "Check front and rear brake pads",
+  "inspectParkBrake": "Inspect Park Brake",
+  "inspectParkBrakeDescription": "Check and retighten if needed",
+  "inspectTires": "Inspect Tires",
+  "inspectTiresDescription": "Check pressure, wear and damage",
+  "inspectExhaustSystem": "Inspect Exhaust System",
+  "inspectExhaustSystemDescription": "Check for leaks and damage",
+  "rotateTires": "Rotate Tires",
+  "rotateTiresDescription": "Rotate tires for even wear",
+  "inspectLights": "Inspect Lights",
+  "inspectLightsDescription": "Check internal and external lights",
+  "inspectBattery": "Inspect Battery",
+  "inspectBatteryDescription": "Check condition and clean terminals",
+  "inspectAcOperation": "Inspect A/C Operation",
+  "inspectAcOperationDescription": "Check A/C system operation",
+  "inspectWipersAndWasher": "Inspect Wipers & Washer",
+  "inspectWipersAndWasherDescription": "Check wipers, nozzles & washer tank",
+  "useDiagnosticTools": "Use Diagnostic Tools",
+  "useDiagnosticToolsDescription": "Run diagnostic scan",
+  "resetOilService": "Reset Oil Service",
+  "resetOilServiceDescription": "Reset oil service indicator if required",
+  "notesLabel": "Notes:",
+  "noMaintenanceHistory": "No Maintenance History",
+  "maintenanceRecordsWillAppear": "Maintenance records will appear here once completed",
+  "nextDue": "Next due:",
+  "notSet": "Not set",
+  "recommendationsToImproveHealth": "Recommendations to Improve Health",
+  "hintOilChangeSeverelyOverdue": "⚠️ URGENT: Oil change is severely overdue by {km} km. Schedule immediate oil change to prevent engine damage.",
+  "@hintOilChangeSeverelyOverdue": {
+    "description": "Hint for severely overdue oil change",
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
+  },
+  "hintOilChangeVeryOverdue": "⚠️ Oil change is overdue by {km} km. Schedule oil change soon to maintain engine health.",
+  "@hintOilChangeVeryOverdue": {
+    "description": "Hint for very overdue oil change",
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
+  },
+  "hintOilChangeOverdue": "Oil change is overdue by {km} km. Schedule maintenance to improve health score.",
+  "@hintOilChangeOverdue": {
+    "description": "Hint for overdue oil change",
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
+  },
+  "hintOilChangeDueSoon": "Oil change is due soon ({km} km remaining). Schedule maintenance to maintain good health.",
+  "@hintOilChangeDueSoon": {
+    "description": "Hint for oil change due soon",
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
+  },
+  "hintOilChangeApproaching": "Oil change is approaching ({km} km remaining). Plan ahead for maintenance.",
+  "@hintOilChangeApproaching": {
+    "description": "Hint for approaching oil change",
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
+  },
+  "hintNoOilChangeData": "No oil change data available. Add oil change tracking to monitor engine health.",
+  "hintNoMaintenanceHistory": "No maintenance history found. Start regular maintenance schedule to improve health score.",
+  "hintLastMaintenanceOver6Months": "Last maintenance was {days} days ago (>6 months). Schedule regular maintenance every 60-90 days.",
+  "@hintLastMaintenanceOver6Months": {
+    "description": "Hint when last maintenance was over 6 months ago",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "hintLastMaintenance3To6Months": "Last maintenance was {days} days ago (3-6 months). Schedule maintenance soon to maintain optimal health.",
+  "@hintLastMaintenance3To6Months": {
+    "description": "Hint when last maintenance was 3-6 months ago",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "hintLastMaintenance2To3Months": "Last maintenance was {days} days ago. Consider scheduling next maintenance soon.",
+  "@hintLastMaintenance2To3Months": {
+    "description": "Hint when last maintenance was 2-3 months ago",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "hintPendingRequests": "{count} pending maintenance request{plural} need attention. Address these to improve health score.",
+  "@hintPendingRequests": {
+    "description": "Hint for pending maintenance requests",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "plural": {
+        "type": "String"
+      }
+    }
+  },
+  "hintInProgressRequests": "{count} maintenance request{plural} in progress. Complete these to improve health.",
+  "@hintInProgressRequests": {
+    "description": "Hint for in-progress maintenance requests",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "plural": {
+        "type": "String"
+      }
+    }
+  },
+  "hintSeverelyOverdueMaintenance": "⚠️ {count} maintenance item{plural} severely overdue (>3 months). Address immediately.",
+  "@hintSeverelyOverdueMaintenance": {
+    "description": "Hint for severely overdue maintenance",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "plural": {
+        "type": "String"
+      }
+    }
+  },
+  "hintVeryOverdueMaintenance": "{count} maintenance item{plural} very overdue (1-3 months). Schedule soon.",
+  "@hintVeryOverdueMaintenance": {
+    "description": "Hint for very overdue maintenance",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "plural": {
+        "type": "String"
+      }
+    }
+  },
+  "hintOverdueMaintenance": "{count} maintenance item{plural} overdue. Review and schedule maintenance.",
+  "@hintOverdueMaintenance": {
+    "description": "Hint for overdue maintenance",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "plural": {
+        "type": "String"
+      }
+    }
+  },
+  "hintNoMonthlyCheckups": "No monthly checkups recorded. Start monthly inspections to monitor car condition.",
+  "hintLastCheckupOver2Months": "Last monthly checkup was {days} days ago (>2 months). Schedule monthly checkup to maintain health monitoring.",
+  "@hintLastCheckupOver2Months": {
+    "description": "Hint when last checkup was over 2 months ago",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "hintLastCheckup1To2Months": "Last monthly checkup was {days} days ago. Schedule next checkup soon.",
+  "@hintLastCheckup1To2Months": {
+    "description": "Hint when last checkup was 1-2 months ago",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "hintMonthlyCheckupDue": "Monthly checkup is due (last one was {days} days ago). Schedule to maintain regular monitoring.",
+  "@hintMonthlyCheckupDue": {
+    "description": "Hint when monthly checkup is due",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "hintCheckupPartiallyCompleted": "Latest monthly checkup is partially completed ({percent}%). Complete it to improve health score.",
+  "@hintCheckupPartiallyCompleted": {
+    "description": "Hint for partially completed checkup",
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "hintCheckupNotCompleted": "Latest monthly checkup is not completed. Complete the checklist to improve health monitoring.",
+  "hintHealthGood": "Car health is good. Maintain regular maintenance schedule to keep it in excellent condition.",
+  "hintHealthNeedsAttention": "Car health needs attention. Address the issues above to improve the health score.",
+  "hintHealthPoor": "⚠️ Car health is poor. Immediate action required. Address critical issues first.",
+  "hintGeneralMaintenance": "Maintain regular maintenance schedule and address any pending issues to achieve optimal health score.",
+  "signOut": "Sign Out",
+  "signOutConfirmation": "Are you sure you want to sign out?",
+  "accountInformation": "Account Information",
+  "emailAddress": "Email Address",
+  "memberSince": "Member Since",
+  "noName": "No Name",
+  "unableToLoadProfile": "Unable to load profile",
+  "pleaseTryAgainLater": "Please try again later",
+  "insuranceIntervals": "Insurance Cars",
+  "manageInsuranceIntervalsForNewCars": "Manage insurance intervals for new cars",
+  "intervalKilometers": "Interval (Kilometers)",
+  "intervalYears": "Interval (Years)",
+  "selectIntervalKilometers": "Select interval in kilometers (30,000 - 200,000)",
+  "selectIntervalYears": "Select interval in years (3 - 10)",
+  "saveInsuranceInterval": "Save Insurance Interval",
+  "insuranceIntervalSaved": "Insurance interval saved successfully",
+  "failedToLoadIntervals": "Failed to load intervals",
+  "failedToSaveInterval": "Failed to save interval",
+  "noNewCars": "No New Cars",
+  "noNewCarsMessage": "There are no new cars in the system.\nInsurance intervals can only be set for new cars.",
+  "loadingCars": "Loading cars...",
+  "errorLoadingCars": "Error loading cars",
+  "currentInterval": "Current",
+  "km": "km",
+  "years": "years",
+  "year": "year",
+  "elapsed": "Elapsed",
+  "month": "month",
+  "months": "months",
+  "day": "day",
+  "days": "days",
+  "completeMaintenanceRequest": "Complete Maintenance Request",
+  "serviceCenterType": "Service Center Type",
+  "selectServiceCenterType": "Select service center type",
+  "authorizedWorkshop": "Authorized Workshop",
+  "unauthorizedWorkshop": "Unauthorized Workshop",
+  "dealership": "Dealership",
+  "enterNameOrId": "Enter name or ID",
+  "cost": "Cost",
+  "costMustBePositive": "Cost must be positive",
+  "additionalNotesOptional": "Additional notes (optional)",
+  "completing": "Completing...",
+  "showPermission": "Show Permission",
+  "maintenancePermissionDocument": "Maintenance Permission Document",
+  "carServiceTitle": "Car Service",
+  "adminPanel": "Admin Panel",
+  "quickActions": "Quick Actions",
+  "vehicles": "Vehicles",
+  "systemAdmin": "System Admin",
+  "checkups": "Checkups",
+  "fleetManagement": "Fleet Management",
+  "vehiclesFound": "{count, plural, =0{No vehicles found} =1{1 vehicle found} other{{count} vehicles found}}",
+  "@vehiclesFound": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "totalVehiclesCount": "Total: {count, plural, =0{0 vehicles} =1{1 vehicle} other{{count} vehicles}}",
+  "@totalVehiclesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "loadingVehicles": "Loading vehicles...",
+  "searchVehicles": "Search vehicles...",
+  "allModels": "All Models",
+  "newLabel": "New",
+  "getStartedAddVehicle": "Get started by adding your first vehicle",
+  "adjustSearchCriteria": "Try adjusting your search criteria",
+  "somethingWentWrong": "Something went wrong",
+  "locationAhsaa": "Ahsaa",
+  "locationDammam": "Dammam",
+  "noVehiclesFound": "No vehicles found",
+  "vehicleNotFound": "Vehicle not found",
+  "registrationNumber": "Plate Number",
+  "newVehicle": "New Vehicle",
+  "activeStatus": "Active",
+  "lastUpdated": "Last Updated",
+  "loadingVehicle": "Loading vehicle...",
+  "errorLoadingVehicle": "Error loading vehicle",
+  "vehicleMaintenanceRequestForm": "Vehicle Maintenance Request Form",
+  "addVehicle": "Add Vehicle",
+  "editVehicle": "Edit Vehicle",
+  "vehicleStatusActive": "Active",
+  "vehicleStatusWorkshop": "Workshop",
+  "vehicleStatusInsurance": "Insurance",
+  "accidentVehicle": "Accident Vehicle",
+  "addNewVehicle": "Add New Vehicle",
+  "registerNewVehicle": "Register a new vehicle to your fleet",
+  "updateVehicleInformation": "Update vehicle information",
+  "createVehicle": "Create Vehicle",
+  "updateVehicle": "Update Vehicle",
+  "markAsNewVehicle": "Mark as New Vehicle",
+  "assignedEmployee": "Assigned Employee",
+  "selectLocation": "Select Location",
+  "pleaseSelectEmployee": "Please select an employee",
+  "youMustBeLoggedIn": "You must be logged in",
+  "selectEmployee": "Select Employee",
+  "errorLoadingEmployees": "Error loading employees: {error}",
+  "@errorLoadingEmployees": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "filterByStatus": "Filter by status",
+  "allStatuses": "All Statuses",
+  "createRequest": "Create Request",
+  "noMaintenanceRequestsFound": "No maintenance requests found",
+  "loadingMaintenanceRequests": "Loading maintenance requests...",
+  "maintenanceRequestNotFound": "Maintenance request not found",
+  "requestNumber": "Request #{id}",
+  "@requestNumber": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "loadingCarInfo": "Loading car info...",
+  "carId": "Car ID: {id}",
+  "@carId": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "timeline": "Timeline",
+  "requested": "Requested",
+  "inProgress": "In Progress",
+  "completed": "Completed",
+  "servicesRequested": "Services Requested",
+  "oilChange": "Oil Change",
+  "brakePads": "Brake Pads",
+  "sparkPlugs": "Spark Plugs",
+  "tyres": "Tyres",
+  "acService": "AC Service",
+  "lightsService": "Lights Service",
+  "tyreStackingService": "Tyre Stacking",
+  "oilChangeInformation": "Oil Change Information",
+  "previousKm": "Previous KM",
+  "currentKm": "Current KM",
+  "notes": "Notes",
+  "actions": "Actions",
+  "startWork": "Start Work",
+  "markAsCompleted": "Mark as Completed",
+  "loadingMaintenanceRequest": "Loading maintenance request...",
+  "errorLoadingRequest": "Error loading request",
+  "statusUpdatedTo": "Status updated to {status}",
+  "@statusUpdatedTo": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "errorUpdatingStatus": "Error updating status: {error}",
+  "@errorUpdatingStatus": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "maintenanceType": "Maintenance Type",
+  "allTypes": "All Types",
+  "serviceCenter": "Service Center",
+  "allCenters": "All Centers",
+  "startDate": "Start Date",
+  "endDate": "End Date",
+  "dateFrom": "From: {date}",
+  "@dateFrom": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "dateTo": "To: {date}",
+  "@dateTo": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "noMaintenanceHistoryFound": "No maintenance history found",
+  "loadingMaintenanceHistory": "Loading maintenance history...",
+  "completedOnly": "Completed Only",
+  "pendingOnly": "Pending Only",
+  "performedBy": "By: {name}",
+  "@performedBy": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "createCheckup": "Create Checkup",
+  "noMonthlyCheckupsFound": "No monthly checkups found",
+  "loadingMonthlyCheckups": "Loading monthly checkups...",
+  "all": "All",
+  "pending": "Pending",
+  "statusPadding": "Padding",
+  "statusInProgress": "In Progress",
+  "statusCompleted": "Completed",
+  "vehicleInformation": "Vehicle Information",
+  "carCode": "Car Code",
+  "location": "Location",
+  "maintenanceItems": "Maintenance Items",
+  "authorization": "Authorization",
+  "thisDocumentAuthorizesTheMaintenance": "This document authorizes the maintenance work specified above to be performed on the vehicle.",
+  "carsAdministrator": "Cars Administrator",
+  "errorGeneratingDocument": "Error generating document",
+  "print": "Print",
+  "share": "Share",
+  "download": "Download",
+  "documentDownloaded": "Document downloaded successfully",
+  "errorDownloadingDocument": "Error downloading document",
+  "documentReady": "Document Ready",
+  "documentReadyDescription": "Your maintenance permission document has been generated successfully. You can download or share it now.",
+  "enableBiometrics": "Enable Biometrics",
+  "biometricAuthentication": "Biometric Authentication",
+  "biometricLogin": "Biometric Login",
+  "useBiometricLogin": "Use Biometric Login",
+  "enableBiometricDescription": "Enable biometric authentication for faster and more secure login using your fingerprint or face ID.",
+  "biometricEnabled": "Biometric authentication is enabled",
+  "biometricDisabled": "Biometric authentication is disabled",
+  "enableBiometricQuestion": "Would you like to enable biometric authentication for easier login?",
+  "biometricNotAvailable": "Biometric authentication is not available on this device",
+  "biometricNotEnrolled": "No biometrics enrolled. Please set up fingerprint or face ID in your device settings.",
+  "biometricAuthenticationFailed": "Biometric authentication failed. Please try again or use password login.",
+  "biometricAuthenticationError": "An error occurred during biometric authentication",
+  "biometricSetupRequired": "Please authenticate with your biometric to enable this feature",
+  "disableBiometricConfirmation": "Are you sure you want to disable biometric authentication?",
+  "biometricDisabledSuccess": "Biometric authentication has been disabled",
+  "biometricEnabledSuccess": "Biometric authentication has been enabled successfully",
+  "biometricSetupFailed": "Failed to set up biometric authentication. Please try again.",
+  "tryAgain": "Try Again",
+  "usePasswordInstead": "Use Password Instead",
+  "totalRevenue": "Total Revenue",
+  "totalExpenses": "Total Expenses",
+  "netBalance": "Net Balance",
+  "pettyCashAllocated": "Petty Cash Allocated",
+  "pettyCashSpent": "Petty Cash Spent",
+  "revenueVsExpenses": "Revenue vs Expenses",
+  "categoryBreakdown": "Category Breakdown",
+  "monthlyTrends": "Monthly Trends",
+  "filterByDate": "Filter by Date",
+  "filterByCategory": "Filter by Category",
+  "filterByEmployee": "Filter by Employee",
+  "exportReport": "Export Report",
+  "noFinancialData": "No financial data available",
+  "dashboard": "Dashboard",
+  "detailedReports": "Detailed Reports",
+  "allTransactions": "All Transactions",
+  "filters": "Filters",
+  "analytics": "Analytics",
+  "revenueVsExpensesDescription": "Comparison of revenue and expenses over time",
+  "categoryBreakdownDescription": "Distribution between Car Maintenance Cost and Allocations",
+  "noTransactionsFound": "No transactions found",
+  "notAvailable": "N/A",
+  "dateRange": "Date Range",
+  "selectDateRange": "Select Date Range",
+  "transactionType": "Transaction Type",
+  "allTypes": "All Types",
+  "allCategories": "All Categories",
+  "maintenanceCosts": "Maintenance Costs",
+  "accountantExpenses": "Accountant Expenses",
+  "carMaintenanceCost": "Car Maintenance Cost",
+  "percentOfTotal": "{percent}% of total",
+  "@percentOfTotal": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "enterCurrentOdometerReading": "Enter current odometer reading",
+  "oilChangeIntervalKm": "Oil Change Interval (km)",
+  "oilChangeIntervalHint": "e.g., 5000 for every 5,000 km",
+  "oilChangeTrackingSetupDescription": "This will set up oil change tracking for your car. You can update these values later.",
+  "pleaseEnterValidOdometerReadingAndInterval": "Please enter valid odometer reading and interval",
+  "setupTracking": "Setup Tracking",
+  "setupOilChangeTracking": "Setup Oil Change Tracking",
+  "currentOdometerReadingKm": "Current Odometer Reading (km)",
+  "enterYourCurrentOdometerReading": "Enter your current odometer reading",
+  "nextOilChangeIntervalKm": "Next Oil Change Interval (km)",
+  "recordOilChange": "Record Oil Change",
+  "recordOilChangeDescription": "This will record an oil change and set the interval for your next oil change. You can choose a different interval (e.g., 7000km, 5000km) based on your oil type or driving conditions.",
+  "setupOilChangeTrackingDescription": "This will setup oil change tracking for your car. Enter your current odometer reading and how often you want to change your oil.",
+  "cancel": "Cancel",
+  "pleaseEnterValidNumbers": "Please enter valid numbers",
+  "accessDenied": "Access Denied",
+  "pendingMaintenanceRequests": "Pending Maintenance Requests",
+  "inProgressRequestsTitle": "In Progress Requests",
+  "totalVehicles": "Total Vehicles",
+  "viewAll": "View All",
+  "totalAllocations": "Total Allocations",
+  "recentAllocations": "Recent Allocations",
+  "recentExpenses": "Recent Expenses",
+  "toolsAndInventory": "Tools & Inventory",
+  "inventoryManagementComingSoon": "Inventory management features coming soon...",
+  "createMaintenanceRequest": "Create Maintenance Request",
+  "editMaintenanceRequest": "Edit Maintenance Request",
+  "maintenanceRequestCreationDescription": "Fill in the details to create a new maintenance request",
+  "maintenanceRequestUpdateDescription": "Update the maintenance request details",
+  "vehicle": "Vehicle",
+  "pleaseSelectVehicle": "Please select a vehicle",
+  "noVehiclesAvailable": "No vehicles available. Please create a vehicle first.",
+  "errorLoadingVehicles": "Error loading vehicles: {error}",
+  "@errorLoadingVehicles": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "status": "Status",
+  "lastChangedDates": "Last Changed Dates",
+  "brakePadsLastChanged": "Brake Pads Last Changed",
+  "sparkPlugsLastChanged": "Spark Plugs Last Changed",
+  "tyresLastChanged": "Tyres Last Changed",
+  "updateRequest": "Update Request",
+  "createMonthlyCheckup": "Create Monthly Checkup",
+  "editMonthlyCheckup": "Edit Monthly Checkup",
+  "monthlyCheckupCreationDescription": "Fill in the checkup details for the vehicle",
+  "monthlyCheckupUpdateDescription": "Update the monthly checkup details",
+  "performedByLabel": "Performed By",
+  "pleaseSelectPerformedBy": "Please select who performed the checkup",
+  "noUsersAvailable": "No users available.",
+  "errorLoadingUsers": "Error loading users: {error}",
+  "@errorLoadingUsers": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "checkupDate": "Checkup Date",
+  "pleaseSelectCheckupDate": "Please select a checkup date",
+  "completedAtOptional": "Completed At (optional)",
+  "engineAndFluids": "Engine & Fluids",
+  "engineOilReplaced": "Engine Oil Replaced",
+  "engineAirFilterInspected": "Engine Air Filter Inspected",
+  "engineAirFilterReplaced": "Engine Air Filter Replaced",
+  "acAirFilterInspected": "AC Air Filter Inspected",
+  "automaticTransmissionFluidInspected": "Automatic Transmission Fluid Inspected",
+  "manualTransmissionFluidInspected": "Manual Transmission Fluid Inspected",
+  "differentialFluidInspected": "Differential Fluid Inspected",
+  "sparkPlugsInspected": "Spark Plugs Inspected",
+  "coolantLevelInspected": "Coolant Level Inspected",
+  "coolantConditionInspected": "Coolant Condition Inspected",
+  "brakeClutchFluidInspected": "Brake/Clutch Fluid Inspected",
+  "brakeLinesInspected": "Brake Lines Inspected",
+  "brakePadsInspected": "Brake Pads Inspected",
+  "parkBrakeInspected": "Park Brake Inspected",
+  "fluidLeaksInspected": "Fluid Leaks Inspected",
+  "radiatorHosesInspected": "Radiator Hoses Inspected",
+  "driveShaftsBootsInspected": "Drive Shafts Boots Inspected",
+  "fuelFilterInspected": "Fuel Filter Inspected",
+  "suspensionAndBrakes": "Suspension & Brakes",
+  "suspensionInspected": "Suspension Inspected",
+  "suspensionRetightened": "Suspension Retightened",
+  "shockAbsorberInspected": "Shock Absorber Inspected",
+  "engineSupportInspected": "Engine Support Inspected",
+  "driveBeltPulleysInspected": "Drive Belt/Pulleys Inspected",
+  "tiresAndExhaust": "Tires & Exhaust",
+  "tiresInspected": "Tires Inspected",
+  "tiresRotated": "Tires Rotated",
+  "exhaustSystemInspected": "Exhaust System Inspected",
+  "electricalAndOther": "Electrical & Other",
+  "lightsInspected": "Lights Inspected",
+  "batteryInspected": "Battery Inspected",
+  "acOperationInspected": "AC Operation Inspected",
+  "wipersInspected": "Wipers Inspected",
+  "diagnosticToolsUsed": "Diagnostic Tools Used",
+  "oilServiceReset": "Oil Service Reset",
+  "updateCheckup": "Update Checkup",
+  "superAdminRole": "Super Admin",
+  "adminRole": "Admin",
+  "accountantRole": "Accountant",
+  "warehouseKeeperRole": "Warehouse Keeper",
+  "lights": "Lights",
+  "ac": "Air Conditioning",
+  "maintenance": "Maintenance",
+  "locationRiyadh": "Riyadh",
+  "make": "Make",
+  "color": "Color",
+  "year": "Year",
+  "importFromExcel": "Import from Excel",
+  "importCars": "Import Cars",
+  "carsImportedSuccessfully": "Cars imported successfully",
+  "failedToImportCars": "Failed to import cars: {error}",
+  "@failedToImportCars": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "downloadTemplate": "Download Template",
+  "deductiblePercentage": "Deductible Percentage",
+  "accidentReport": "Accident Report",
+  "attachPdf": "Attach PDF",
+  "pdfUploaded": "PDF Uploaded",
+  "viewReport": "View Report",
+  "removeFile": "Remove File",
+  "failedToPickFile": "Failed to pick file: {error}",
+  "@failedToPickFile": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
+}
